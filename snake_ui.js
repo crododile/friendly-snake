@@ -41,6 +41,7 @@
     this.board.board.forEach(function(row){
       var $div = $("<div></div>")
 	  $div.addClass('row')
+	  $div.addClass('container-fluid')
       row.forEach(function(spot){
 
         if (spot === "S") $div.append("<div class='green'></div>");
@@ -48,6 +49,7 @@
         else $div.append("<div class='white'></div>");
       });
       $el.append($div)
+	  $el.append('<br>')
     });
   }
 
