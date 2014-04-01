@@ -36,10 +36,11 @@
   }
 
   View.prototype.render = function(){
-    console.log("hi")
+
     $el.empty()
     this.board.board.forEach(function(row){
       var $div = $("<div></div>")
+	  $div.addClass('row')
       row.forEach(function(spot){
 
         if (spot === "S") $div.append("<div class='green'></div>");

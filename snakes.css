@@ -1,7 +1,8 @@
 .container {
   background-color: chocolate;
-  width: 600px;
-  height: 600px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 .container pre{
@@ -14,19 +15,23 @@
   background-color:green;
   width: 50px;
   height: 50px;
-  display: inline-block;
+  float: left;
+}
+
+.row {
+   display: inline-block;;
 }
 
 .white {
   background-color: white;
   width: 50px;
   height: 50px;
-  display: inline-block;
+  float: left;
 }
 
 .apple {
   background-color: red;
   width: 50px;
   height: 50px;
-  display: inline-block;
+	float: left;
 }
