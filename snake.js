@@ -70,10 +70,10 @@
 
     this.segments.forEach(function(seg){
 
-      if(seg.x > 9) seg.x = 0;
-      if(seg.x < 0) seg.x = 9;
-      if(seg.y > 9) seg.y =0;
-      if(seg.y < 0) seg.y = 9;
+      if(seg.x > 19) seg.x = 0;
+      if(seg.x < 0) seg.x = 19;
+      if(seg.y > 19) seg.y =0;
+      if(seg.y < 0) seg.y = 19;
 
     });
   }

@@ -1,21 +1,22 @@
 .container {
   background-color: chocolate;
   width: 100%;
-  height: 100%;
+/*  height: 100%;*/
   text-align: center;
 }
 
 .container pre{
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   white-space: pre-wrap;
 }
 
 .green {
   background-color:green;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   float: left;
+  
 }
 
 .row {
@@ -25,14 +26,14 @@
 
 .white {
   background-color: white;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
   float: left;
 }
 
 .apple {
   background-color: red;
-  width: 50px;
-  height: 50px;
+  width: 20px;
+  height: 20px;
 	float: left;
 }

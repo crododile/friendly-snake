@@ -31,8 +31,8 @@
   }
 
   Board.prototype.makeBoard = function () {
-    return _.times(10, function (i) {
-      return _.times(10, function (j) {
+    return _.times(20, function (i) {
+      return _.times(20, function (j) {
         return ".";
       });
     });
